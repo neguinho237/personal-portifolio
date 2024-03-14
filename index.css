@@ -97,6 +97,8 @@ section{
     justify-content: center;
     text-align: center;
     margin-top: 282px;
+    width: 100%;
+    height: 1080px;
 }
 
 .presentation>h1{
@@ -169,3 +171,4 @@ gap: 50px;
     align-items: center;
     padding-left: 60px;
 }
+
