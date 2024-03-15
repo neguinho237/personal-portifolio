@@ -41,7 +41,7 @@ nav>a{
 
 /* segunda parte do header */
 
-.partOne{
+/* .partOne{
  display: flex;
  flex-direction: column;
  width: 545px;
@@ -71,25 +71,26 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 100px;
 }
 
 div>button{
     background-color: #332668;
-    color: white;
+    color: rgb(255, 255, 255);
     width: 310px;
     height: 65px;
     border-radius: 20px;
     margin-top: 130px;
     font-size: 24px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+} */
 
 .socialNetworks{
 margin-top: 172px;
 display: flex;
 gap: 16px;
-padding-right: 160px  ;
-}
+
+} */
 
 section{
     display: flex;
@@ -170,5 +171,84 @@ gap: 50px;
     margin-top: 40px;
     align-items: center;
     padding-left: 60px;
+} 
+@media (max-width: 390px) {
+
+header{
+    flex-direction: column;
+    padding-left: 40px;
 }
 
+header>div{
+    display: flex;
+   padding-right: 90px;
+}
+
+div>.symbol{
+    width: 35px;
+    height: 39px;
+    margin-top: 10px;
+}
+
+div>h1{
+    font-size: 15px;
+}
+
+header>nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
+width: 311px;
+height: 58px;
+margin-top: 31px;
+}
+
+nav>a{
+text-align: center;
+font-size: 16px;
+}
+/* header concluido */
+
+.test{
+    display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 83px;
+}
+
+.partOne>h1{
+    font-size: 16px;
+    padding-right: 200px;
+    margin-top: 8px;
+
+}
+
+.partOne>span{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+button{
+    width: 143px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #332668;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 44px;  
+    margin-right: 196px; 
+}
+
+.partOne{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.skin{
+    width: 201px;
+    height: 199px;
+}
+   
+}
