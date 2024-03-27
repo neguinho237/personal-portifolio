@@ -198,14 +198,14 @@ nav{
     display: flex;
     flex-direction: row;
     gap: 30px;
-    width: 311px;
-    height: 58px;
+    width: 245px;
+    height: 1px;
+    flex-wrap: wrap;
 }
 header{
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+flex-direction: column;
 }
 .tudo{
     display: flex;
@@ -217,6 +217,95 @@ header{
 }
 nav>a{
     font-size: 13px;
-    color: aqua;
 }
+.skin{
+    width: 201px;
+    height: 199px;
+}
+.apresentation>h1{
+    font-size: 16px;
+}
+.apresentation>span{
+    font-size: 20px;
+}
+button{
+    width: 143px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 11px;
+}
+.socialNetworks{
+    width: 86px;
+    height: 21px;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+.tudomain{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Bruno>h1{
+    font-size: 20px;
+}
+.Bruno>p{
+    font-size: 14px;
+}
+.hardSkills>h1{
+    font-size: 20px;
+}
+.niveis{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.niveis>img{
+    width: 83px;
+    height: 39px;
+}
+.hs2{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hs2>img{
+    width: 83px;
+    height: 39px;
+}
+.mt>h1{
+    font-size: 20px;
+}
+.mt>p{
+    font-size: 20px;
+}
+.Ja{
+    font-size: 16px;
+}
+.Used{
+    width: 400px;
+}
+.Used>img{
+    width: 39px;
+    height: 39px;
+}
+.t2{
+    font-size: 20px;
+}
+.ad{
+    font-size: 16px;
+}
+.Developin{
+    width: 400px;
+    display: flex;
+    gap: 3px;
+}
+.Developing>img{
+    width: 39px;
+    height: 39px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
 }
