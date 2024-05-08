@@ -1,5 +1,6 @@
 body{
     width: 100%;
+    background-color: rgb(10, 10, 10);
 }
 
 .tudo{
@@ -308,6 +309,6 @@ button{
     gap: 3px;
 }
 body{
-    background-color: black;
+    background-color: rgb(10, 10, 10);
 }
 }
